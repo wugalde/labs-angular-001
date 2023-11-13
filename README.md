@@ -20,3 +20,23 @@ Run `ng serve | npm start | yarn start` for a dev server. Navigate to `http://lo
   ``` 
 ## Further help
 To get more help on the Angular CLI use `ng help`
+
+
+# Comandos de git.
+* …or create a new repository on the command line
+```shell
+    echo "# labs-angular-001" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/wugalde/labs-angular-001.git
+    git push -u origin main
+```
+
+* …or push an existing repository from the command line
+```shell
+    git remote add origin https://github.com/wugalde/labs-angular-001.git
+    git branch -M main
+    git push -u origin main
+```
