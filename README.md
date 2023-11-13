@@ -23,6 +23,11 @@ To get more help on the Angular CLI use `ng help`
 
 
 # Comandos de git.
+
+* Recupeara codio antes en el ultimo commit.
+`git checkout -- .`
+
+
 * …or create a new repository on the command line
 ```shell
     echo "# labs-angular-001" >> README.md
