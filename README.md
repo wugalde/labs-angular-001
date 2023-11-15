@@ -22,10 +22,34 @@ Run `ng serve | npm start | yarn start` for a dev server. Navigate to `http://lo
 To get more help on the Angular CLI use `ng help`
 
 
+
+
+# Funcionalidad de Dragon Ball Z
+
+## Comandos de angular.
+* crear un nuevo modulo
+`ng g m dbz`
+* Crear un componente
+`ng g c dbz/components/addCharacter --skip-tests`
+
+
+
+
+
 # Comandos de git.
 
 * Recupeara codio antes en el ultimo commit.
 `git checkout -- .`
+
+* Add tags
+`git tag`
+`git tag -a v1.0 -m "Lab 001 de bases de angular"`
+`git show v1.0`
+`git push origin v1.0`
+`git push origin --tags`
+* Eliminar tag
+`git tag -d v1.0`
+
 
 
 * …or create a new repository on the command line
